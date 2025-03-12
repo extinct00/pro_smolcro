@@ -149,7 +149,7 @@
 	(condition "A.Type == 'Track'")
   # Choose between:
   # 1-2 Layers (1oz)
-(constraint track_width (min 0.127mm))
+(constraint track_width (min 0.1mm))
   # 4-6 Layers (1oz and 0.5oz)
 	#(constraint track_width (min 0.09mm))
   # 1-6 Layers (2oz)
@@ -160,7 +160,7 @@
 	(condition "A.Type == 'Track' && B.Type == 'Track'")
   # Choose between:
   # 1-2 Layers (1oz)
-(constraint clearance (min 0.127mm))
+(constraint clearance (min 0.1mm))
   # 4-6 Layers (1oz and 0.5oz)
 	#(constraint clearance (min 0.09mm))
   # 1-6 Layers (2oz)
